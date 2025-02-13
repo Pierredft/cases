@@ -11,6 +11,22 @@ body {
     margin: 20px auto;
 }
 
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+}
+
+
+
 .num-button {
     padding: 10px;
     font-size: 16px;
@@ -43,6 +59,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 .btn-liste:hover {
@@ -63,4 +80,21 @@ th, td {
 
 th {
     background-color: #f4f4f4;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }

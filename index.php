@@ -15,7 +15,7 @@ $reservedNumbers = $stmt->fetchAll(PDO::FETCH_COLUMN);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Choisissez un numéro (1-100)</h1>
+    <h1>Choisissez un numéro</h1>
     
     <div class="grid">
         <?php for ($i = 1; $i <= 100; $i++): ?>
